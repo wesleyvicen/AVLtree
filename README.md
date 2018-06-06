@@ -16,3 +16,26 @@ O código de exemplo está em Java ([versão 1.8] (https://java.com/en/download/
             
   Funciona de tal forma:<br>
 <img align="center" src="https://github.com/wesleyvicen/AVLtree/blob/master/imgs/AVLtree.gif">
+
+
+Classe `Corpo.java` tem o Menu, esté a baixo
+```java
+		while (opcao != 0) {
+			System.out.println("\n1 INSERIR");
+			System.out.println("2 REMOVER");
+			System.out.println("3 EXIBIR ( Em-ordem )");
+			System.out.println("0 SAIR");
+			opcao = scan.nextInt();
+			if (opcao == 1)
+				inserir();
+			else if (opcao == 2)
+				remover();
+			else if (opcao == 3)
+				exibir();
+
+		}
+...
+
+ Você pode selecionar qualquer função da lista, `INSERIR` seria para inserir itens na Arvore, `remover` seria para remover e `EXIBIR`, seria para exibir os itens da arvore, isso em Pre ordem. e por fim tem a função `SAIR`
+
+Classe NoAvl,java
