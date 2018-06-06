@@ -15,7 +15,7 @@ O código de exemplo está em Java ([versão 1.8] (https://java.com/en/download/
   Ou seja: serve para organizar itens e depois conseguir encontrar tais itens com mais facilidade.
             
   Funciona de tal forma:<br>
-<img align="center" src="https://github.com/wesleyvicen/AVLtree/blob/master/imgs/AVLtree.gif">
+<img src="https://github.com/wesleyvicen/AVLtree/blob/master/imgs/AVLtree.gif" width="800">
 
 
 Classe `Corpo.java` 
