@@ -53,6 +53,7 @@ Está é a classe onde se encontra tudo, todos os métodos e funções necessari
 
 Um dos metodos é o inserir, este logo abaixo.
 ```java
+	private NoAvl inserir(int x, NoAvl no) {
 		if (no == null) {
 			no = new NoAvl(x, null, null);
 		} else if (x == no.valor)
@@ -66,6 +67,8 @@ Um dos metodos é o inserir, este logo abaixo.
 
 		}
 		no = balance(no);
+		return no;
+	}
 ``` 
 
 ### Execução
