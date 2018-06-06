@@ -14,5 +14,5 @@ O código de exemplo está em Java ([versão 1.8] (https://java.com/en/download/
   Segundo o Wikipedia Árvore AVL é uma árvore binária de busca balanceada[2], ou seja, uma árvore balanceada (árvore completa) são as árvores que minimizam o número de comparações efetuadas no pior caso para uma busca com chaves de probabilidades de ocorrências idênticas.
   Ou seja: serve para organizar itens e depois conseguir encontrar tais itens com mais facilidade.
             
-            Funciona de tal forma:
-<img src="https://github.com/wesleyvicen/AVLtree/blob/master/imgs/AVLtree.gif" center>
+  Funciona de tal forma:<br>
+<img align="center" src="https://github.com/wesleyvicen/AVLtree/blob/master/imgs/AVLtree.gif">
